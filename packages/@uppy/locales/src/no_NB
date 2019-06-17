@@ -1,0 +1,148 @@
+/* eslint camelcase: 0 */
+
+const no_NB = {}
+
+no_NB.strings = {
+  addMoreFiles: 'Legg til flere filer',
+  addingMoreFiles: 'Legger til flere filer',
+  allowAccessDescription: 'For å ta bilder eller spille inn video med ditt kamera, vennligst gi kameraet tilgang for dette nettstedet.',
+  allowAccessTitle: 'Vennligt gi kameraet tilgang',
+  authenticateWith: 'Koble til %{pluginName}',
+  authenticateWithTitle: 'Vennligst autentiser med %{pluginName} for å velge filer',
+  back: 'Tilbake',
+  browse: 'utforsk',
+  cancel: 'Avbryt',
+  cancelUpload: 'Avbryt opplasting',
+  chooseFiles: 'Velg filer',
+  closeModal: 'Lukk vindu',
+  companionAuthError: 'Godkjenning påkrevd',
+  companionError: 'Tilkobling med Companion feilet',
+  complete: 'Fullført',
+  connectedToInternet: 'Tilkoblet internett',
+  copyLink: 'Kopier lenke',
+  copyLinkToClipboardFallback: 'Kopier URL nedenfor',
+  copyLinkToClipboardSuccess: 'Lenken ble kopiert til utklippstavlen',
+  creatingAssembly: 'Forbereder opplasting...',
+  creatingAssemblyFailed: 'Transloadit: Kunne ikke generere Assembly',
+  dashboardTitle: 'Filopplaster',
+  dashboardWindowTitle: 'Filopplastervindu (Trykk escape for å lukke)',
+  dataUploadedOfTotal: '%{complete} av %{total}',
+  done: 'Fullført',
+  dropHereOr: 'Slipp filer her eller %{browse}',
+  dropHint: 'Slipp filene dine her',
+  dropPaste: 'Slipp filer her, lim inn eller %{browse}',
+  dropPasteImport: 'Slipp filer her, lim inn, %{browse} eller importer fra',
+  edit: 'Rediger',
+  editFile: 'Rediger fil',
+  editing: 'Redigerer %{file}',
+  emptyFolderAdded: 'Ingen filer ble lagt til fra tom mappe',
+  encoding: 'Enkoder...',
+  enterCorrectUrl: 'Ugyldig URL: Vennligst kontroller at du oppgir en direktelenke til en fil',
+  enterUrlToImport: 'Oppgi URL for å importere en fil',
+  exceedsSize: 'Denne filen overskrider maksimal størrelse på',
+  failedToFetch: 'Companion feilet i å hente denne URLen, vennligst kontroller at den er korrekt',
+  failedToUpload: 'Opplasting av %{file} feilet',
+  fileSource: 'Filkilde: %{name}',
+  filesUploadedOfTotal: {
+    '0': '%{complete} av %{smart_count} filer lastet opp',
+    '1': '%{complete} av %{smart_count} fil lastet opp',
+    '2': '%{complete} av %{smart_count} filer lastet opp'
+  },
+  filter: 'Filter',
+  finishEditingFile: 'Avslutt redigering av fil',
+  folderAdded: {
+    '0': 'La til %{smart_count} filer fra %{folder}',
+    '1': 'La til %{smart_count} fil fra %{folder}',
+    '2': 'La til %{smart_count} filer fra %{folder}'
+  },
+  import: 'Importer',
+  importFrom: 'Importer fra %{name}',
+  link: 'Lenke',
+  loading: 'Laster...',
+  logOut: 'Logg ut',
+  myDevice: 'Min enhet',
+  noFilesFound: 'Du har ingen filer eller mapper her',
+  noInternetConnection: 'Ingen internettforbindelse',
+  pause: 'Pause',
+  pauseUpload: 'Pause opplasting',
+  paused: 'Pauset',
+  poweredBy: 'Drevet av',
+  preparingUpload: 'Forbereder opplasting...',
+  processingXFiles: {
+    '0': 'Behandler %{smart_count} filer',
+    '1': 'Behandler %{smart_count} fil',
+    '2': 'Behandler %{smart_count} filer'
+  },
+  removeFile: 'Fjern fil',
+  resetFilter: 'Nullstill filter',
+  resume: 'Fortsett',
+  resumeUpload: 'Fortsett opplasting',
+  retry: 'Prøv på nytt',
+  retryUpload: 'Prøv opplasting på nytt',
+  saveChanges: 'Lagre endringer',
+  selectXFiles: {
+    '0': 'Velg %{smart_count} filer',
+    '1': 'Velg %{smart_count} fil',
+    '2': 'Velg %{smart_count} filer'
+  },
+  smile: 'Smil!',
+  startRecording: 'Start videoopptak',
+  stopRecording: 'Stopp videoopptak',
+  takePicture: 'Ta et bilde',
+  timedOut: 'Opplasting stagnerte i %{seconds} sekunder, avbryter.',
+  upload: 'Last opp',
+  uploadComplete: 'Opplasting fullført',
+  uploadFailed: 'Opplasting feilet',
+  uploadPaused: 'Opplasting pauset',
+  uploadXFiles: {
+    '0': 'Last opp %{smart_count} filer',
+    '1': 'Last opp %{smart_count} fil',
+    '2': 'Last opp %{smart_count} filer'
+  },
+  uploadXNewFiles: {
+    '0': 'Last opp +%{smart_count} filer',
+    '1': 'Last opp +%{smart_count} fil',
+    '2': 'Last opp +%{smart_count} filer'
+  },
+  uploading: 'Uploading',
+  uploadingXFiles: {
+    '0': 'Laster opp %{smart_count} filer',
+    '1': 'Laster opp %{smart_count} fil',
+    '2': 'Laster opp %{smart_count} filer'
+  },
+  xFilesSelected: {
+    '0': '%{smart_count} filer valgt',
+    '1': '%{smart_count} fil valgt',
+    '2': '%{smart_count} filer valgt'
+  },
+  xMoreFilesAdded: {
+    '0': '%{smart_count} flere filer lagt til',
+    '1': '%{smart_count} flere fil lagt til',
+    '2': '%{smart_count} flere filer lagt til'
+  },
+  xTimeLeft: '%{time} gjenstår',
+  youCanOnlyUploadFileTypes: 'Du kan bare laste opp: %{types}',
+  youCanOnlyUploadX: {
+    '0': 'Du kan bare laste opp %{smart_count} filer',
+    '1': 'Du kan bare laste opp %{smart_count} fil',
+    '2': 'Du kan bare laste opp %{smart_count} filer'
+  },
+  youHaveToAtLeastSelectX: {
+    '0': 'Du må velge minst %{smart_count} filer',
+    '1': 'Du må velge minst %{smart_count} fil',
+    '2': 'Du må velge minst %{smart_count} filer'
+  }
+}
+
+no_NB.pluralize = function (n) {
+  if (n === 1) {
+    return 1
+  }
+  return 0
+}
+
+if (typeof window !== 'undefined' && typeof window.Uppy !== 'undefined') {
+  window.Uppy.locales.no_NB = no_NB
+}
+
+module.exports = no_NB
