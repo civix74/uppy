@@ -143,9 +143,9 @@ no_NB.strings = {
 
 no_NB.pluralize = function (n) {
   if (n === 1) {
-    return 0
+    return 1
   }
-  return 1
+  return 0
 }
 
 if (typeof window !== 'undefined' && typeof window.Uppy !== 'undefined') {
